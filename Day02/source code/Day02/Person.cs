@@ -45,8 +45,8 @@ namespace Day02
     {
         public void GetAuthorName(Person person)
         {
-            var authorName = person as Author;
-            Console.WriteLine(authorName != null ? $"Author is {authorName.Name}" : "No author.");
+            var author = person as Author;
+            Console.WriteLine(author != null ? $"Author is {author.Name}" : "No author.");
         }
 
         public void GetStackholdersname(Person person)
